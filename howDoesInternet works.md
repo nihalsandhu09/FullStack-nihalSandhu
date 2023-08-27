@@ -38,6 +38,18 @@ if you want to send a message to a computer, you have to specfy which one. thus 
 that's perfectly fine for computers, bvut we human beings have a hard time remebering that sort of address. To make things easier,we can alias an IP address with a human-readable name called a domain name. For example(at the time of writing:IP addresses can change) google.com is the domain name used on top of the IP address 142.250.190.78. So using the domain is the easiest way for us to reach a computer over the internet
 
 
+4): INTERNET AND THE  WEB 
+
+
+As you might notice, when we browse the Web with a Web browser, we usually use the domain name to reach a website. Does that mean the Internet and the Web are the same thing? It's not that simple. As we saw, the Internet is a technical infrastructure which allows billions of computers to be connected all together. Among those computers, some computers (called Web servers) can send messages intelligible to web browsers. The Internet is an infrastructure, whereas the Web is a service built on top of the infrastructure. It is worth noting there are several other services built on top of the Internet, such as email and IRC.
+
+Intranets and Extranets
+Intranets are private networks that are restricted to members of a particular organization. They are commonly used to provide a portal for members to securely access shared resources, collaborate and communicate. For example, an organization's intranet might host web pages for sharing department or team information, shared drives for managing key documents and files, portals for performing business administration tasks, and collaboration tools like wikis, discussion boards, and messaging systems.
+
+Extranets are very similar to Intranets, except they open all or part of a private network to allow sharing and collaboration with other organizations. They are typically used to safely and securely share information with clients and stakeholders who work closely with a business. Often their functions are similar to those provided by an intranet: information and file sharing, collaboration tools, discussion boards, etc.
+
+Both intranets and extranets run on the same kind of infrastructure as the Internet, and use the same protocols. They can therefore be accessed by authorized members from different physical locations.
+
 
 
 ```
