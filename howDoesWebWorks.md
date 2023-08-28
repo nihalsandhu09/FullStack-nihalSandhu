@@ -56,3 +56,19 @@ when browser send request to servers for HTML files, those HTML files often cont
 4. As the Browser builds the DOM tree and applies the style from the CSSOM tree and executes the Javasript, a vosal representation of the page is painted to the Sreen, and the user sees the page content and can begin and can begin to intract with it.
 
 ```
+
+### DNS explained 
+```
+Real web adresses are'nt the nice, memobrable strings you type into your address bar to find your fav website .  they are special numbers that look like this 192.0.2.172. 
+
+This is called an IP address, and it represents a unique location on the web. however, it's not very easy to rember,? that's why the domain NAMe System was invented . this system uses special servers that match up a web addrss you type into your browser (like "mozilla.org") to the website's real (IP) address.
+
+Website can be reached directly via their IP addresses .
+
+
+```
+
+### Packets explained
+```
+Earlier we used the term "packets" to describe the format in which the data is sent from server to client. What do we mean here? Basically, when data is sent across the web, it is sent in thousands of small chunks. There are multiple reasons why data is sent in small packets. They are sometimes dropped or corrupted, and it's easier to replace small chunks when this happens. Additionally, the packets can be routed along different paths, making the exchange faster and allowing many different users to download the same website at the same time. If each website was sent as a single big chunk, only one user could download it at a time, which obviously would make the web very inefficient and not much fun to use.
+```
