@@ -44,3 +44,15 @@ when you type a web addresss into your browser(for our analogy that's like walki
 ```
 
 ### ORDER IN WHICH COMPONENT FILES ARE PARSED
+```
+when browser send request to servers for HTML files, those HTML files often contain elements refrencing external CSS stylesheets and SCRIPT elements refrencing external JavaSCript scripts. its's important to know the order in which those files are parsed by the browser as the browser loads the page.
+
+1. The browser parses the HTML file first and that leads to the browser recognizing and elemnt refrences to external CSS styleSheets and any script elemnt refrences to scripts.
+
+2. As the browser parses the HTML, it sends request back to the server for any CSS files it has found from link elements ,and any JavaScript files it has found from script elements, and from those, then parse the CSS and Javascript.
+
+3. the browser generates an in-memory DOM tree from the parsed HTML, generates an in-memory CSSOM structure from the parsed CSS, and compilers and execute the parsed JavaScript.
+
+4. As the Browser builds the DOM tree and applies the style from the CSSOM tree and executes the Javasript, a vosal representation of the page is painted to the Sreen, and the user sees the page content and can begin and can begin to intract with it.
+
+```
