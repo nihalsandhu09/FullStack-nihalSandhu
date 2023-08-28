@@ -19,4 +19,8 @@
  * Your internet connection: Allows you to send and receive data on the web. it's basically like the street between your house and the shop.
 
  * TCP/IP: Transmission control Protocol and Internet Protocol are Communication protocols that define how data should travel across the internet. This is like the transport mechanisms that let you place an order, go to the shop, and buy your goods. in our example, this is like a car or a bike (or however else you might get around).
+
+ *DNS: Domain Name System is like an address book for websites. When you type a web address in your browser, the browser looks at the DNS to find the website's IP address it can retrieve the website. The  Browser needs to find out which serveer the website lives on, so it can send HTTP messages to the right place  this is like looking up the address of the shop so you can access it.
+
+ *HTTP: Hypertext Transfer Proctocol is an application protocol that defines a language for clients and servers to speak to each other. this is like the language you use to order your goods.
 ```
