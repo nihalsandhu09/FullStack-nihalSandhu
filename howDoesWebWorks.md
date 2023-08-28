@@ -23,4 +23,22 @@
  *DNS: Domain Name System is like an address book for websites. When you type a web address in your browser, the browser looks at the DNS to find the website's IP address it can retrieve the website. The  Browser needs to find out which serveer the website lives on, so it can send HTTP messages to the right place  this is like looking up the address of the shop so you can access it.
 
  *HTTP: Hypertext Transfer Proctocol is an application protocol that defines a language for clients and servers to speak to each other. this is like the language you use to order your goods.
+
+ *Component files: A website is made up of many different files, which are like the different parts of the goods you buy from he shop. these files come in two main types:
+
+ 1) Code files : Website are built primarily from HTML,CSS and Javascript, thought you'll meet other technologies a bit later.
+ 2) Assests    : this is a collective name for alll other stuff that makes up a website, such as image, music, Video,Word documents and PDF's
+```
+
+### So what happens , exactly? 
+```
+when you type a web addresss into your browser(for our analogy that's like walking to the shop):
+
+1. The browser goes to the DNS server, and finds the real adress of that server that the websiote lives on (you find the address of the shop).
+
+2. the browser sends an HTTP request to the server, asking it to send a copy of the website to the client (you go to the shop and order your goods). this message, and all other data sent between the client and the server, is ent across your internet connection using TCP/IP.
+
+3. if the server approves the client's request, the server sends the client a "200 OK" message, which means "of course you can look at that website! Here it is", and then starts sending the website's files to the browser as a series of small chunks called data packets(the shop gives you your goods, and you bring them back to your house).
+
+4. the browser assembles the small chunks into a complete web page and dispays it to you (the good arrive at your door - new )
 ```
