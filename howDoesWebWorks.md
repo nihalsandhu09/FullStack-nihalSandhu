@@ -17,4 +17,6 @@
  In addition to the client and the server, we also need to say hello to :
 
  * Your internet connection: Allows you to send and receive data on the web. it's basically like the street between your house and the shop.
+
+ * TCP/IP: Transmission control Protocol and Internet Protocol are Communication protocols that define how data should travel across the internet. This is like the transport mechanisms that let you place an order, go to the shop, and buy your goods. in our example, this is like a car or a bike (or however else you might get around).
 ```
