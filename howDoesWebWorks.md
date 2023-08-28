@@ -40,5 +40,7 @@ when you type a web addresss into your browser(for our analogy that's like walki
 
 3. if the server approves the client's request, the server sends the client a "200 OK" message, which means "of course you can look at that website! Here it is", and then starts sending the website's files to the browser as a series of small chunks called data packets(the shop gives you your goods, and you bring them back to your house).
 
-4. the browser assembles the small chunks into a complete web page and dispays it to you (the good arrive at your door - new )
+4. the browser assembles the small chunks into a complete web page and dispays it to you (the good arrive at your door - new shiny stuff awesome!)
 ```
+
+### ORDER IN WHICH COMPONENT FILES ARE PARSED
